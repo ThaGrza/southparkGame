@@ -1,0 +1,13 @@
+.mainStyle {
+    margin: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+.db{
+  height: 300px;
+  width: 250px;
+}
