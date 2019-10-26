@@ -95,7 +95,7 @@ class App extends Component {
       points: 0,
       currentScore:0,
       topScore: this.state.topScore,
-      result: "You Lost!",
+      result: "OOPS! Try again!",
       clicked: [],
       Icons,
       gameOver: true
