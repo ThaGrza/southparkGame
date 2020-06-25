@@ -5,6 +5,7 @@ import Banner from './components/Banner';
 import IconCard from './components/IconCard';
 import Icons from './icons.json';
 import "./components/IconCard.css";
+import "./components/NavBar.css";
 
 const shuffleArray = (array) => {
   let counter = array.length;
@@ -106,17 +107,17 @@ class App extends Component {
   render() {
     return (
       <div className='container'>
-        <NavBar topScore={this.state.topScore} currentScore={this.state.currentScore} status={this.state.result}/>
-        <Banner />
-        <div className='mainStyle'>
-        {this.state.Icons.map(icon => (
-        <IconCard
-          id={icon.id}
-          image={icon.image}
-          clickedPlayer={this.clickedPlayer}
-        />
-        ))}
-        </div>
+      <NavBar topScore={this.state.topScore} currentScore={this.state.currentScore} status={this.state.result}/>
+      <Banner />
+      <div className='mainStyle'>
+      {this.state.Icons.map(icon => (
+      <IconCard
+        id={icon.id}
+        image={icon.image}
+        clickedPlayer={this.clickedPlayer}
+      />
+      ))}
+      </div>
       </div>
     );
   }
