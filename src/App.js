@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import NavBar from './components/NavBar';
-import Banner from './components/Banner';
 import IconCard from './components/IconCard';
 import Icons from './icons.json';
 import "./components/IconCard.css";
@@ -82,6 +81,11 @@ class App extends Component {
     }
     this.resetIconArray();
   }
+  
+  // Alerts user of game over and their score.
+  alertScore = () => {
+    alert("High Score! " + this.state.topScore);
+  }
 
   // reset the game when the user chooses a duplicate
   resetGame = () => {
@@ -94,6 +98,7 @@ class App extends Component {
       Icons,
       gameOver: true
     });
+    this.alertScore();
     console.log('Game over? ', this.state.gameOver);
     this.resetIconArray();
   }
@@ -108,7 +113,6 @@ class App extends Component {
     return (
       <div className='container'>
       <NavBar topScore={this.state.topScore} currentScore={this.state.currentScore} status={this.state.result}/>
-      <Banner />
       <div className='mainStyle'>
       {this.state.Icons.map(icon => (
       <IconCard

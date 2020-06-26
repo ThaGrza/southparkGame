@@ -1,7 +1,21 @@
 h1{
-  padding-top: 30px;
-  text-align: center;
+  padding-top: 5px;
+  margin-top: 0px;
 }
-h2 {
+
+.navbar-container{
+  background-color: rgb(224, 224, 224);
   text-align: center;
+  padding-bottom: 5px;
+  margin-left: 300px;
+  margin-right: 300px;
+  border-radius: 1em;
+}
+
+.top-score {
+  color: rgb(235, 46, 46);
+}
+
+.score {
+  color: blue;
 }

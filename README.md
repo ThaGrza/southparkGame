@@ -1,30 +1,33 @@
+# Memory Game!
+## Screenshots / Gifs
+![Screenshot](/assets/images/screenshot.png)
 
-# South Park Memory Game!!
+## Motivation
+Brain Blaster is a small simple 10 question trivia game to practice Js and jquery.
 
-## Click on your favorite South Park character, but not twice! See how high you can get your score by not clicking on the same character twice! 
+## How to
+To get blasting your brain simply go to https://thagrza.github.io/TriviaGame/ and starting answering! (Some questions might be opinion based).
 
+## Build Status
+N/A
 
+## Tech/framework used
+<b> Built with </b>
+- [Javascript](https://www.javascript.com/)
+- [React](https://reactjs.org/)
 
+## Features
+N/A
 
+## Installation
+N/A
 
+## API Reference
+N/A
 
+## Credits
+Andrew Griswold
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Made using React.js, animated with Pixi.js. 
+## License
+This project is covered by the MIT license.
+MIT © Andrew Griswold
