@@ -88,7 +88,7 @@ class App extends Component {
   
   // Alerts user of game over and their score.
   alertScore = () => {
-    alert("High Score! " + this.state.topScore);
+    alert("Nice job you got " + this.state.topScore + "!");
   }
 
   // reset the game when the user chooses a duplicate
