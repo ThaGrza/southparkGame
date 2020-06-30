@@ -1,12 +1,12 @@
 # Memory Game!
 ## Screenshots / Gifs
-![Screenshot](/assets/images/screenshot.png)
+![Screenshot](/images/screenshot.png)
 
 ## Motivation
 Brain Blaster is a small simple 10 question trivia game to practice Js and jquery.
 
 ## How to
-To get blasting your brain simply go to https://thagrza.github.io/TriviaGame/ and starting answering! (Some questions might be opinion based).
+To get blasting your brain simply go to https://thagrza.github.io/Memory-Game/ and starting answering! (Some questions might be opinion based).
 
 ## Build Status
 N/A
