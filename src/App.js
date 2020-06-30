@@ -5,6 +5,8 @@ import IconCard from './components/IconCard';
 import Icons from './icons.json';
 import "./components/IconCard.css";
 import "./components/NavBar.css";
+import firebase from "./firebase";
+
 
 const shuffleArray = (array) => {
   let counter = array.length;
@@ -21,6 +23,7 @@ const shuffleArray = (array) => {
   }
   return array;
 };
+
 class App extends Component {
 
   state = {
