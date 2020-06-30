@@ -2,7 +2,7 @@
   "name": "reactapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://agriswold7.github.io/clicky_game/",
+  "homepage": "https://thagrza.github.io/Memory-Game/",
   "dependencies": {
     "firebase": "^7.15.5",
     "gh-pages": "^2.1.0",

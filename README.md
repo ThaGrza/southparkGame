@@ -3,10 +3,10 @@
 ![Screenshot](/images/screenshot.png)
 
 ## Motivation
-Brain Blaster is a small simple 10 question trivia game to practice Js and jquery.
+This South Park style memory game is a simple website to practice your memory and my react / JSX skills.
 
 ## How to
-To get blasting your brain simply go to https://thagrza.github.io/Memory-Game/ and starting answering! (Some questions might be opinion based).
+To play simply go to  https://thagrza.github.io/Memory-Game/ and start clicking! But click the same image more than once and its game over!
 
 ## Build Status
 N/A
