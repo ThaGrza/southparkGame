@@ -3,6 +3,13 @@ import firebase from "firebase";
 
 var database = firebase.database();
 
+database.ref().push({
+  name: "Andrew",
+  highscore: 8,
+});
+
+
+
 const LeaderBoard = props => (
   <div className="leaderBoard-container">
     <h2>LeaderBoard</h2>
