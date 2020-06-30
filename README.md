@@ -1,9 +1,9 @@
 # Memory Game!
 ## Screenshots / Gifs
-![Screenshot](/images/screenshot.png)
+![Screenshot](/src/images/screenshot.png)
 
 ## Motivation
-This South Park style memory game is a simple website to practice your memory and my react / JSX skills.
+This South Park style memory game is a simple website to practice your memory and my React / JSX skills.
 
 ## How to
 To play simply go to  https://thagrza.github.io/Memory-Game/ and start clicking! But click the same image more than once and its game over!
