@@ -5,6 +5,8 @@ import IconCard from './components/IconCard';
 import Icons from './icons.json';
 import "./components/IconCard.css";
 import "./components/NavBar.css";
+import Footer from './components/Footer';
+import "./components/Footer.css";
 
 const shuffleArray = (array) => {
   let counter = array.length;
@@ -123,6 +125,7 @@ class App extends Component {
       />
       ))}
       </div>
+      <Footer/>
       </div>
     );
   }
