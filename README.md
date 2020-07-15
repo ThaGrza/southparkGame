@@ -27,6 +27,7 @@ N/A
 
 ## Credits
 Andrew Griswold
+Icon links provided by https://icons8.com/icons
 
 ## License
 This project is covered by the MIT license.
