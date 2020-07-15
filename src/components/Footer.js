@@ -1,8 +1,12 @@
 import React from "react";
 
+
 const Footer = props => (
   <footer className="footer-container">
-    <a href="https://twitter.com/thagrza"> <img src="https://img.icons8.com/fluent/48/000000/twitter.png"/> </a>
+    <p>©{(new Date().getFullYear())} Andrew Griswold</p>
+    <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/thagrza"> <img className="social-icon" alt="https://twitter.com/thagrza" src="https://img.icons8.com/fluent/48/000000/twitter.png"/> </a>
+    <a target="_blank" rel="noopener noreferrer" href="https://github.com/ThaGrza"> <img className="social-icon" alt="https://github.com/ThaGrza" src="https://img.icons8.com/fluent/48/000000/github.png"/> </a>
+    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/agriswold7/"> <img className="social-icon" alt="https://www.linkedin.com/in/agriswold7/" src="https://img.icons8.com/office/16/000000/linkedin.png"/> </a>
   </footer>
 )
 
