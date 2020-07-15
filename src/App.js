@@ -5,9 +5,6 @@ import IconCard from './components/IconCard';
 import Icons from './icons.json';
 import "./components/IconCard.css";
 import "./components/NavBar.css";
-import firebase from "./firebase";
-import Leaderboard from "./components/Leaderboard";
-
 
 const shuffleArray = (array) => {
   let counter = array.length;

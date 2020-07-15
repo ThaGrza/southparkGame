@@ -4,7 +4,6 @@
   "private": true,
   "homepage": "https://thagrza.github.io/Memory-Game/",
   "dependencies": {
-    "firebase": "^7.15.5",
     "gh-pages": "^2.2.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
