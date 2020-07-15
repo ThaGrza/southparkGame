@@ -5,6 +5,7 @@ h1{
 
 .navbar-container{
   background-color: rgb(224, 224, 224);
+  flex-wrap: flex;
   text-align: center;
   padding-bottom: 5px;
   margin-left: 300px;
@@ -18,4 +19,11 @@ h1{
 
 .score {
   color: blue;
+}
+
+@media screen and (max-width: 1020px){
+  .navbar-container {
+    width: 405px;
+    margin: auto;
+  }
 }
