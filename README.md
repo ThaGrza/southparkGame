@@ -1,6 +1,3 @@
----
-permalink: /index.html
----
 # Memory Game!
 ## Screenshots / Gifs
 ![Screenshot](/src/images/screenshot.png)
