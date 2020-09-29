@@ -6,7 +6,7 @@
 This South Park style memory game is a simple website to practice your memory and my React / JSX skills.
 
 ## How to
-To play simply go to  https://thagrza.github.io/Memory-Game/ and start clicking! But click the same image more than once and its game over!
+To play simply go to https://southpark-memory-game.netlify.app/ and start clicking! But click the same image more than once and its game over!
 
 ## Tech/framework used
 <b> Built with </b>
